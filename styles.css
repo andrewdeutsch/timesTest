@@ -1,7 +1,6 @@
 
 body {
-	margin-left:40%; 
-	padding-top:5%
+	padding-top:2%
 }
 
 @media only screen 
@@ -17,7 +16,7 @@ body {
     and (-webkit-min-device-pixel-ratio : 2)
 { 
 	margin-left:40%; 
-	padding-top:5%
+	padding-top:2%
 }
 Portrait
 
@@ -33,12 +32,19 @@ Portrait
     and (device-pixel-ratio : 2)
     and (-webkit-min-device-pixel-ratio : 2)
 { 
-	margin-left:40%; 
-	padding-top:5%
+	margin-left:20%; 
+	padding-top:2%
 }
 
 
-
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
 .byline {
 	font-size: 0.625rem;
 	font-style: normal;
@@ -50,6 +56,8 @@ Portrait
 .header {
 	font-size: 0.875rem;
 	font-weight: 700;
+	color:#000;
+	text-decoration: none;
 	font-style: normal;
     font-family: georgia,"times new roman",times,serif;
     display: inline-block;
@@ -60,10 +68,12 @@ Portrait
 	font-style: normal;
     font-family: georgia,"times new roman",times,serif;
     display: inline-block;
-    margin-bottom: 25%;
+    margin-bottom: 12%;
 }
 #storyBits{
-	width: 177px;
+	margin-left:40%; 
+	width: 200px;
     float: left;
+    border: #333;
 
 }

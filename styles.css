@@ -51,7 +51,11 @@ a:hover {
     font-family: georgia,"times new roman",times,serif;
     display: inline-block;
 }
-
+.image {
+	float:right;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+}
 
 .header {
 	font-size: 0.875rem;
